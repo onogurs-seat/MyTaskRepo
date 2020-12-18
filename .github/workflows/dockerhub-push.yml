@@ -32,7 +32,7 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: jar-artifact
-          path: target/.jar
+          path: target/first-project-0.0.1-SNAPSHOT.jar
 
   build_push_dev_image:
     runs-on: ubuntu-latest
